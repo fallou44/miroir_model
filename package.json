@@ -1,0 +1,43 @@
+{
+  "name": "social-media",
+  "version": "1.0.0",
+  "description": "Ce projet est un backend pour un réseau social destiné aux tailleurs, où ils peuvent poster leurs modèles, avoir des followers, commenter, partager, liker des statuts, etc. Il est construit avec Express, Node.js, et MongoDB.",
+  "main": "server.js",
+  "directories": {
+    "mirroir-model": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DS1003/social-media.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DS1003/social-media/issues"
+  },
+  "homepage": "https://github.com/DS1003/social-media#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^2.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.14",
+    "multer-storage-cloudinary": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0"
+  }
+}
